@@ -123,7 +123,18 @@
     --scrollbar-opacity-hover: 0.3;
     --scrollbar-width: 10px;
 }
-
+.addFriendWumpusWrapper__72ba7 img {
+  content: url('https://i.namu.wiki/i/iyPYWRR3MYLCIPT7wqCTswKEGeyL_9VovzdO45DycH49Znb5h1NZu8TIdGDfEfnukML_MRrgJufa5B-DIBR1ow.webp') !important;
+  width: 100px; /* 원하는 가로 크기 */
+  height: auto; /* 비율 유지하면서 높이 자동 조정 */
+  object-fit: contain; /* 잘림 없이 */
+}
+.theme-dark .emptyStateImage_d4883c {
+  background: url('https://github.com/imc0nt0/HEBI_BETTERDISCORD/raw/refs/heads/main/KakaoTalk_20250426_195902965_06.jpg');
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
  body {
     background-color: transparent;
     font-family: 'NanumSquareNeoBold', sans-serif !important;
@@ -4971,18 +4982,20 @@
     }
 
     .tutorialContainer__1f388 .listItem__650eb .listItemWrapper__91816 .wrapper_cc5dd2::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('https://phinf.wevpstatic.net/MjAyNTA0MjRfMTc5/MDAxNzQ1NDg1NDgyODEx.ibVixvrWrAuVnqSM6H5RJue0ldHMV9ZK-Lgw3D_cgpwg.OWvTeTlb7yHohf54UinoaW48oTbnlEc7tdsWNLudESUg.PNG/11.png?type=w670');
-        background-size: cover;
-        background-position: center;
-        z-index: 1; /* 이미지를 맨 앞으로 배치 */
-        border-radius: 50%;
-    }
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://phinf.wevpstatic.net/MjAyNTA0MjRfMTc5/MDAxNzQ1NDg1NDgyODEx.ibVixvrWrAuVnqSM6H5RJue0ldHMV9ZK-Lgw3D_cgpwg.OWvTeTlb7yHohf54UinoaW48oTbnlEc7tdsWNLudESUg.PNG/11.png?type=w670');
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+      border-radius: 50%;
+      pointer-events: none; /* 여기를 추가! */
+  }
+  
 
     .tutorialContainer__1f388 .listItem__650eb .listItemWrapper__91816 .wrapper_cc5dd2 svg {
         position: relative;
