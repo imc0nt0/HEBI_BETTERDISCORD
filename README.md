@@ -34,5 +34,5 @@
   ![작은 프로필](https://github.com/imc0nt0/HEBI_BETTERDISCORD/blob/main/S-PROFILE.png)
 
 # 문의 ✉️
-   - IMC_NT_@nate.com(E-MAIL)
+   - admin@katas.co.kr(E-MAIL)
    - imc_nt_(DISCORD)
